@@ -1,4 +1,4 @@
-def Concatenar_Lista(lista:list)->str:
+def concatenar_Lista(lista:list)->str:
     i=0
     concatena =""
     for i in range(len(lista)):
@@ -15,4 +15,4 @@ for i in range(tamano_lista):
     lista.append(elemento)
     i+=1
 
-print(f'Esta es la concatenacion:  {Concatenar_Lista(lista)}')
+print(f'Esta es la concatenacion:  {concatenar_Lista(lista)}')
